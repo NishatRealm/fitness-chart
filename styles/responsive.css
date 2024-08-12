@@ -1,0 +1,126 @@
+/* Responsiveness for small devices */
+@media screen and (max-width: 576px) {
+
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+  
+    .hamburger-menu {
+        display: block;
+        margin-right: 20px;
+    }
+  
+    .nav-links {
+        display: none; /* Hide the nav links, showcasing only the hamburger menu image */
+    }
+  
+    .brand {
+        font-size: 1.8rem;
+        margin-left: 20px;
+    }
+  
+    .banner {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+  
+    .banner-content {
+        text-align: left;
+        max-width: 100%;
+    }
+  
+    h1 {
+        font-size: 2.5rem;
+        margin-bottom: 15px;
+    }
+  
+  
+    .badge {
+        font-size: 1rem;
+        padding: 10px;
+        text-align: center;
+    }
+  
+    .badge1 {
+        top: 65%;
+        right: auto;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+  
+    .badge2 {
+        bottom: 5%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .text-secondary {
+        font-size: 1rem;
+        margin-bottom: 20px;
+    
+    }
+  
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        gap: 20px;
+    }
+    /* .btn {
+        width: 80%;
+        max-width: 300px;
+        margin-bottom: 10px;
+    } */
+   /* .banner-img img {
+        max-width: 80%;
+        height: auto;
+        margin: 20px 0;
+    }
+  
+    .badge {
+        font-size: 1rem;
+        padding: 10px;
+        text-align: center;
+        position: absolute;
+    }
+  
+    .badge1 {
+        top: 60%;
+        left: 10%;
+        transform: translate(-10%, -60%);
+    }
+  
+    .badge2 {
+        top: 80%;
+        left: 60%;
+        transform: translate(-60%, -80%);
+    } */
+    .banner-img img {
+        max-width: 100%;
+        height: auto;
+        margin: 20px 0;
+    }
+  
+    .badge {
+        font-size: 1rem;
+        padding: 10px;
+        text-align: center;
+        position: absolute;
+    }
+  
+    .badge1 {
+        top: 15%;
+        left: 80%;
+    }
+  
+    .badge2 {
+        bottom: 40%;
+        left: 20%;
+    }
+
+}
+
+  

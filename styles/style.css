@@ -1,0 +1,130 @@
+body{
+  font-family: 'Inter', sans-serif;
+}
+/* shared styles */
+.display-flex{
+  display: flex;
+}
+.bg-color{
+  background-color: rgba(17, 17, 17, 1);
+} 
+.text-nav{
+  color:rgba(255, 255, 255, 1) ;
+}
+.text-secondary{
+  font-size: 1rem;
+  font-weight: 400;
+  color:rgba(255, 255, 255, 0.5) ;
+}
+.btn{
+   border-radius: 42px;
+  padding: 16px 40px;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  
+}
+.btn-primary{
+  background-color: rgba(230, 83, 60, 1);
+  color: rgba(255, 255, 255, 1);
+  margin-right: 14px;
+
+}
+.btn-secondary{
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 1);
+  
+}
+/* header styles */
+/* navbar related styles */
+.navbar{
+  justify-content: space-between;
+  align-items: center;
+}
+.brand{
+  font-weight: 800;
+  font-size: 2.25rem;
+  color: rgba(230, 83, 60, 1);
+  font-style: italic;
+}
+.nav-item{
+list-style: none;
+margin-right: 30px;
+}
+.nav-link{
+  text-decoration: none;
+  font-weight: 400px;
+  font-size: 18px;
+}
+.navbar, .banner{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.rounded-box{
+  background-color: rgba(230, 83, 60, 1);
+  padding: 8px 20px; 
+  border-radius: 46px; 
+}
+/* banner styles */
+.banner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.banner-content{
+  max-width: 50%;
+ }
+h1 {
+  font-size: 3.5em;
+  color: rgba(255, 255, 255, 1);
+}
+.grey-qo-regular {
+  font-family: "Grey Qo", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.italic {
+  font-family: 'Grey Qo', sans-serif; 
+  font-style: italic;
+}
+.hamburge-menu{
+  display: none;
+}
+.buttons {
+  margin-top: 20px;
+}
+.banner-img{
+  position: relative;
+}
+.badge {
+  position: absolute;
+  background-color: rgba(48, 48, 48, 0.54);
+  border-radius: 12px;
+  padding: 15px 20px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  font-size: 1.5rem;
+}
+.badge1 {
+  top: 20%;
+  right: 0;
+  width: 120px;
+}
+
+.badge2 {
+  bottom: 15%;
+  left: 0;
+  width: 120px;
+ 
+}
+
+.badge span {
+  font-size: 0.5em;
+  color:rgba(255, 255, 255, 1);
+}
+.hamburger-menu{
+  display: none;
+}
