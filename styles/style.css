@@ -16,6 +16,11 @@ body{
   font-size: 3rem;
   font-weight: 800;
 }
+.text-BMI{
+  color: rgba(255, 255, 255, 1);
+  font-size: 1.5rem;
+  font-weight: 800;
+}
 .text-secondary{
   font-size: 1rem;
   font-weight: 400;
@@ -205,4 +210,91 @@ h1 {
   padding: 16px 40px;
   width: 225px;
   border: none;
+}
+/* BMI chart and form related styles */
+
+.chart-title{
+  margin-bottom: 0;
+  
+}
+.BMItag-container{
+  text-align: left;
+  margin-left: 580px;
+  margin-bottom: 70px;
+  width: 676px;
+  }
+.BMI-content{
+  justify-content: space-between;
+  background-color: rgba(34, 34, 34, 1);
+  padding: 20px;
+
+}
+.chart, .form {
+  width: 45%;
+}
+table {
+  width: 310px;
+  border-collapse: collapse;
+  margin-left: 200px;
+}
+
+table, th, td {
+  border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+.form {
+  text-align: left;
+  width: 577px;
+  height: 386px;
+  margin-right: 200px;
+}
+
+.form-description,
+.form-row {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.form-row {
+    display: flex;
+    gap: 20px; 
+}
+
+input,
+select {
+    flex: 1; /* Each input/select will take up equal space */
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    /* border: 1px solid #555; */
+    border-radius: 4px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 600;
+}
+  
+
+
+.form-description,
+.form-row {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px; /* Gap between inputs */
+}
+
+input,
+select {
+  flex: 1; /* Each input/select will take up equal space */
+  padding: 10px;
+  background-color: #444;
+  border: 1px solid #555;
+  border-radius: 4px;
+  color: #fff;
 }

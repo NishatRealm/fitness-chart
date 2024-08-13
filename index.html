@@ -109,6 +109,72 @@
             <img src="images/run.jpg" alt="Man running">
         </div>
     </div>
+    <!-- BMI chart and form -->
+    <div class="chart-container">
+       <div class="BMItag-container">
+        <h1 class="chart-title text-primary">BMI Calculator</h1>
+        <p class="chart-description text-secondary">We believe fitness should be accessible to everyone,everywhere, regardless of income or <br> access to a gym.</p>
+       </div>
+        
+        <div class="BMI-content display-flex">
+            <div class="chart">
+                <h2 class="text-BMI">BMI Calculator Chart</h2>
+                <table>
+                    <tr>
+                        <th class="text-nav">BMI</th>
+                        <th class="text-nav">Weight Status</th>
+                    </tr>
+                    <tr>
+                        <td class="text-secondary">Below 18.5</td>
+                        <td class="text-secondary">Underweight</td>
+                    </tr>
+                    <tr>
+                        <td class="text-secondary">18.5 - 24.9</td>
+                        <td class="text-secondary">Healthy</td>
+                    </tr>
+                    <tr>
+                        <td class="text-secondary">25.0 - 29.9</td>
+                        <td class="text-secondary">Overweight</td>
+                    </tr>
+                    <tr>
+                        <td class="text-secondary">30.0 - and Above</td>
+                        <td class="text-secondary">Obese</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="form">
+                <h2 class="text-BMI form-title">Calculate your BMI</h2>
+                <p class="text-secondary form-description">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+                <form>
+                    <div class="form-row">
+                        <input type="number" placeholder="Height/cm" required>
+                        <input type="number" placeholder="Weight/kg" required>
+                    </div>
+                    <div class="form-row">
+                        <input type="number" placeholder="Age" required>
+                        <select >
+                            
+                            <option value="">Sex</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                    </div>
+                    <div class="form-row full-width">
+                        <select >
+                            <option value="">Select an activity factor</option>
+                            
+                            <option value="light">Light</option>
+                            <option value="moderate">Moderate</option>
+                            <option value="active">Active</option>
+                           
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary run-btn">Calculate</button>
+                </form>
+            </div>
+        </div>
+    </div>
         </section>
     </main>
     <footer>
