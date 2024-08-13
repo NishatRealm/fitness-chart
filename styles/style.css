@@ -173,3 +173,36 @@ h1 {
 .habit-title{
   margin-bottom:0;
 }
+/* run extra mile related styles */
+.run-banner{
+  
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(34, 34, 34, 1);
+  
+  margin: 50px 50px;
+  padding: 40px;
+  border-radius: 10px;
+  margin-top: 80px;
+}
+.run-content{
+  width: 500px;
+  max-width: 100%;
+  text-align: left;
+
+}
+.run-title{
+  margin-bottom: 0;
+  margin-top: 2px;
+}
+
+.run-img img{
+  width: 380px;
+  border-radius: 10px;
+  
+}
+.run-btn{
+  padding: 16px 40px;
+  width: 225px;
+  border: none;
+}
