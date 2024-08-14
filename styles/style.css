@@ -267,10 +267,9 @@ th, td {
 
 input,
 select {
-    flex: 1; /* Each input/select will take up equal space */
+    flex: 1; 
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.1);
-    /* border: 1px solid #555; */
     border-radius: 4px;
     color: rgba(255, 255, 255, 0.5);
     font-weight: 600;
@@ -286,15 +285,67 @@ select {
 
 .form-row {
   display: flex;
-  gap: 20px; /* Gap between inputs */
+  gap: 20px; 
 }
 
 input,
 select {
-  flex: 1; /* Each input/select will take up equal space */
+  flex: 1; 
   padding: 10px;
   background-color: #444;
   border: 1px solid #555;
   border-radius: 4px;
   color: #fff;
 }
+/* meet or team related styles */
+.team-title {
+  margin-bottom: 0;
+}
+.team-description{
+  margin-bottom: 50px;
+}
+.member-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 1060px;
+
+  justify-content: center;
+  margin: 20px auto;
+  background-color: rgba(255, 255, 255, 0.1);
+  gap: 10px;
+  padding: 20px;
+}
+
+.member {
+  position: relative;
+  text-align: center;
+}
+
+.member img {
+  width: 326px;
+  height: 275px;
+  border-radius: 18px;
+  display: block;
+}
+
+.info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: left;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  border-radius: 18px;
+  
+}
+
+.info h5 {
+  margin-bottom: 0;
+  font-weight: 800;
+}
+.info p {
+  margin-top: 5px;
+  font-weight: 600;
+}
+
