@@ -1,5 +1,6 @@
 /* Responsiveness for small devices */
 @media screen and (max-width: 576px) {
+   
     /* responsiveness of banner section */
     .navbar {
         flex-direction: row;
@@ -186,5 +187,20 @@ button {
 }
 .member{
     margin-left: 10px;
+}
+
+/* footer section responsiveness */
+.footer-container{
+    grid-template-columns: repeat(1,1fr);
+    
+    justify-content: left;
+    margin-left: 0;
+}
+.content-1{
+    margin-left: 15px;
+}
+.tagline{
+    margin-left: 20px;
+    width: 320px;
 }
 }

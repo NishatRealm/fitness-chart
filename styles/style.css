@@ -1,10 +1,12 @@
 body{
   font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
 }
 /* shared styles */
 .display-flex{
   display: flex;
 }
+
 .bg-color{
   background-color: rgba(17, 17, 17, 1);
 } 
@@ -308,12 +310,14 @@ select {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   width: 1060px;
-
+  
   justify-content: center;
   margin: 20px auto;
   background-color: rgba(255, 255, 255, 0.1);
   gap: 10px;
   padding: 20px;
+  margin-bottom: 0;
+  
 }
 
 .member {
@@ -326,6 +330,7 @@ select {
   height: 275px;
   border-radius: 18px;
   display: block;
+  padding-bottom: 30px;
 }
 
 .info {
@@ -348,4 +353,37 @@ select {
   margin-top: 5px;
   font-weight: 600;
 }
-
+/* footer related styles */
+.footer-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin-left: 200px;
+  padding-top: 30px;
+  gap: 0;
+}
+.logo{
+  margin-top: 12px;
+  margin-bottom: 0;
+  
+}
+.content-1{
+  margin-right: 200px;
+}
+.c2-header{
+  margin-left: 35px;
+}
+.content-list1{
+  list-style-type: none;
+ 
+  
+} 
+.footer-bottom {
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 30px;
+  
+}
+hr{
+  width: 1100px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
